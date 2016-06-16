@@ -13,3 +13,15 @@ end
 get '/foto' do
 	erb :foto
 end
+
+get '/otziv' do
+	erb :otziv
+end
+
+get '/contacti' do
+	erb :contacti
+end
+
+get '/pravila' do
+	erb :pravila
+end

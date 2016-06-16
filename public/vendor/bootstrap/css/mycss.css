@@ -1,7 +1,33 @@
+/*кнопки*/
+.btn {
+  color: #808080 !important;
+}
+.btn:hover,
+.btn:focus {
+  color: white !important;
+  text-decoration: none;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #808080;
+  background-color: #808080 !important;
+  border-color: #808080;
+}
+
 img{
 	width: 100% !important;
 }
+#otziv {
+  text-align: center;
+  color: #808080;
+
+}
 /*меню*/
+
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
@@ -21,7 +47,7 @@ img{
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #D5FEC7;
+  border-color: #808080 !important;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
@@ -53,7 +79,10 @@ img{
 }
 
 #logo-col{
-	border: none !important;
+	border: 0.3em solid white;
+  align: center;
+  max-height: 10em;
+  max-width: 10em;
 }
 
 #kuz{
@@ -70,8 +99,8 @@ img{
   border-top: 	0.5em solid #D5FEC7;
   border-color: #D5FEC7;
   /*background-color: #D5FEC7;*/
-  padding-right: 1em;
-  padding-left: 2em;
+  /*padding-right: 1em;
+  padding-left: 2em;*/
 }
 
 #foo2{
@@ -89,6 +118,7 @@ footer{
 	margin-right: 1.5em;
 	padding-right: 1em;
 	padding-left: 2em;
+  color: #808080;
 }
 
 

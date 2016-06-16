@@ -3,7 +3,7 @@ require 'sinatra'
 require 'rubygems'
 
 get '/' do
-	erb :layout
+	erb :index
 end
 
 get '/news' do

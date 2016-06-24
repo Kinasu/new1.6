@@ -1,21 +1,21 @@
+
+
 /*запись на занятия*/
 #write1 {
   float: top;
-  border: 0.5em solid #D5FEC7;
+  border: 0.5em solid #01b54b;
 }
 
 #write2 {
   float: left;
-   border: 0.5em solid #D5FEC7;
 }
 
 #write3 {
   float: right;
-   border: 0.5em solid #D5FEC7;
 }
 #write4 {
   float: bottom;
-   border: 0.5em solid #D5FEC7;
+   border: 0.5em solid #01b54b;
 }
 
 /*кнопки*/
@@ -48,14 +48,26 @@ img{
 
 }
 /*меню*/
+#menu {
+margin-bottom: 5em;
+}
+
+ul {
+  background-color: #01b54b;
+  border-radius: 0.3em;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  padding: 0;
+}
+
 
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #666666;
+  background-color: #00a550;
 }
 .nav-justified > li > a {
-  color: #666666;
+  color: #FFFFFF;
 }
 .nav-justified > li > a:hover {
   color: white;
@@ -89,22 +101,30 @@ img{
 	position: relative;
 }
 /*стили к странице новостей*/
-.newsimg{
-	width: 20em;
+.newsimg {
+	width: 22em;
 	height: auto;
+  padding-top: 4.5em;
 }
 
 #news1,#news2,#news3{
 	/*border-bottom: 0.2em solid #808080;*/
 	padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 #logo-col{
   margin: 1em 1em 1em 1em;
 }
 
+#msk {
+  color: white;
+  text-decoration: none;
+}
 #kuz{
   text-align: right;
+  color: white;
+  text-decoration: none;
 }
 
 #blockquote{
@@ -114,12 +134,16 @@ img{
   font-style: italic;
 }
 #addr{
-  border-bottom: 0.3em solid #D5FEC7;
-  border-top: 	0.3em solid #D5FEC7;
-  border-color: #D5FEC7;
-  /*background-color: #D5FEC7;*/
-  /*padding-right: 2em;
-  padding-left: 3em;*/
+  margin-top: 2em;
+  margin-bottom: 4em;
+  background-color: #01b54b;
+  text-decoration: none;
+  border-radius: 0.3em;
+}
+#addr:focus,
+#addr:hover {
+  
+  background-color: #00a550;
 }
 
 #foo2{
@@ -130,11 +154,29 @@ img{
   height: 1.5em !important;
   margin: 1em 1em 1em 1em;
 }
+/*преимущества*/
+#advantages1,#advantages2,#advantages3,#advantages4 {
+  margin-top: 0.7em;
+  color: white;
+  text-decoration: none;
+}
+
+#advant_wrap {
+  background-color: #01b54b;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+/*новые события*/
+
+#events1,#events2,#events3,#events4,#events5,#events6,#events7,#events8{
+  padding: 1em 1em 1em 1em;
+  text-decoration: none;
+}
 
 .bla{
-  width: 1.5em !important;
-  height: 1.5em !important;
-  margin: 1em 1em 1em 1em;
+  width: 3em !important;
+  height: 3em !important;
+  margin: 0.2em 0.2em 0.2em 0.2em;
 }
 
 footer{
@@ -149,7 +191,7 @@ footer{
 	
 body,footer .container-fluid {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.06);
-  min-width: 57em;
+  /*min-width: 57em;*/
   max-width: 67em;
   margin-top: 0px;
   margin-right: auto;

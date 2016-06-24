@@ -21,15 +21,15 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-2"><img src="img/logo.png" id="logo-col"></div>
-			<div class="col-xs-offset-7" id="blockquote"><h3 style="color:#666666">Познавайте мир вместе с нами!<br> Сеть семейных клубов - Малина</h3></div>
+			<div class="col-xs-offset-7 hidden-xs" id="blockquote"><h3 style="color:#666666">Познавайте мир вместе с нами!<br> Сеть семейных клубов - Малина</h3></div>
 			<div class="col-xs-offset-9">
 				<a href="https://www.instagram.com/clubmalina/" id="socset1" target="_blank" title="Instagram"><img src="img/insta.png" class="socset"></a>
 				<a href="https://www.facebook.com/clubmalina/" id="socset2" target="_blank" title="Facebook"><img src="img/fb.png" class="socset"></a>
 			</div>
 		</div>
 		<div class="row" id="addr">
-			<div class="col-xs-6"><a href="/moscovskiy" style="color:#666666"><h4>г.Московский, 3 микрорайон, д.11:<br>+7(499)583-03-67</h4></a></div>
-			<div class="col-xs-6"><a href="/kyzminki" style="color:#666666" id="kuz"><h4>г.Москва,ул. Васильцовский стан, д.11:<br>+7(499)649-38-51</h4></a></div>
+			<div class="col-xs-6"><a href="/moscovskiy" id="msk"><h4>г.Московский, 3 микрорайон, д.11:<br>+7(499)583-03-67</h4></a></div>
+			<div class="col-xs-6"><a href="/kyzminki" id="kuz"><h4>г.Москва,ул. Васильцовский стан, д.11:<br>+7(499)649-38-51</h4></a></div>
 		</div>
 			
 <!--<div class="row">
@@ -42,22 +42,58 @@
 </div>-->
 
 <!--тут картинка большая -->
-<div class="row">
+<div class="row hidden-xs">
 	<div class="col-xs-1"></div>
-	<div class="col-xs-8"><img src="img/st_rannego_razv.jpg"></div>
+	<div class="col-xs-8">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="..." alt="...">
+		      <div class="carousel-caption">
+		        ...
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="..." alt="...">
+		      <div class="carousel-caption">
+		        ...
+		      </div>
+		    </div>
+		    ...
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+
+
+</div>
 	<div class="col-xs-3">
 		<div id="write1">запись на пробное занятие</div>
-		<div id="write2">кузьминки</div>
-		<div id="write3">московский</div>
-		<div id="write4"><br><br><br> анонс ближайшего события</div>
+		<div id="write2"><a href="#">кузьминки</a></div>
+		<div id="write3"><a href="#">московский</a></div>
+		<div id="write4">заказать звонок</div>
 	</div>
 </div>
 
 <!-- тут меню-->
 <div class="row">
-	<!-- MENU-->
-	<div class="col-xs-1"></div>
-	<div class="col-xs-10" id="menu">
+	<div class="col-xs-12" id="menu">
 		<ul class="nav nav-pills nav-justified">
 			<li><a href="/">Главная</a></li>
   			<li><a href="/otziv">Отзывы</a></li>
@@ -67,31 +103,47 @@
   			<li><a href="/pravila">Правила</a></li>
 		</ul>
 	</div>
-	<div class="col-xs-1"></div>
 </div>
 	<!--END OF MENU -->
 
-	<div><br><br><br><br><br><br></div>
+	
 
-		<!--новые события-->
-			<div class="row">
-				<div class="col-xs-4"><a href="/pdagogi" style="color:#666666" ><img src="img/pedagog.jpeg" class="bla">Lorem ipsum dolor sit amet,<p>consectetur adipiscing elit. Ut ullamcorper felis velit, dapibus pulvinar ligula suscipit eget. </p> </a></div>
-				<div class="col-xs-4"><a href="/blabla" style="color:#666666"><img src="img/blabla.png" class="bla">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper felis velit, dapibus pulvinar ligula suscipit eget.</a></div>
-				<div class="col-xs-4"><a href="/opit" style="color:#666666"><img src="img/opit.png" class="bla">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper felis velit, dapibus pulvinar ligula suscipit eget.</a></div>
-			</div>
-			<div class="row">
-				<div class="col-xs-4"><a href="/pdagogi" style="color:#666666" ><img src="img/st_razv_rech.jpg">Lorem ipsum dolor sit amet.</a></div>
-				<div class="col-xs-4"><a href="/blabla" style="color:#666666"><img src="img/st_rannego_razv.jpg">Lorem ipsum dolor sit amet.</a></div>
-				<div class="col-xs-4"><a href="/opit" style="color:#666666"><img src="img/horeogr.jpg">Lorem ipsum dolor sit amet.</a></div>
-			</div>
-			<!--end новые события-->
+
+
+<!--Новые события-->
+	<div class="row">
+		<div class="col-xs-4" id="events1"><a href="/pdagogi" style="color:#666666" ><img src="img/st_razv_rech.jpg">Lorem ipsum dolor sit amet.</a></div>
+		<div class="col-xs-4" id="events2"><a href="/blabla" style="color:#666666"><img src="img/st_rannego_razv.jpg">Lorem ipsum dolor sit amet.</a></div>
+		<div class="col-xs-4" id="events3"><a href="/opit" style="color:#666666"><img src="img/horeogr.jpg">Lorem ipsum dolor sit amet.</a></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6" id="events4"><a href="#"><img src="img/teatr.jpg"></a></div>
+		<div class="col-xs-6" id="events5"><a href="#"><img src="img/st_razv_rech.jpg"></a></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-4" id="events6"><a href="#"><img src="img/st_razv_rech.jpg"></a></div>
+		<div class="col-xs-4" id="events7"><a href="#"><img src="img/st_razv_rech.jpg"></a></div>
+		<div class="col-xs-4" id="events8"><a href="#"><img src="img/st_razv_rech.jpg"></a></div>
+	</div>
+<!--end новые события-->
+
+<!--наши преимущества-->
+	<div class="row" id="advant_wrap">
+		<div class="col-xs-3" id="advantages1"><a href="/pdagogi" style="color:#666666" ><img src="img/pedagog.jpeg" class="bla">Опытные педагоги</a></div>
+		<div class="col-xs-3" id="advantages2"><a href="/blabla" style="color:#666666"><img src="img/blabla.png" class="bla"><p>Индивидуальный подход</p></a></div>
+		<div class="col-xs-3" id="advantages3"><a href="/opit" style="color:#666666"><img src="img/opit.png" class="bla"><p>Большой опыт</p></a></div>
+		<div class="col-xs-3" id="advantages4"><a href="/probn_zan" style="color: #666666"><img src="#" class="bla"><p>пробные занятия</p></a></div>
+	</div>
+<!-- end advantages-->
+
 
 	<div><br><br><br><br><br></div>
 
 
 	</div>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+    <script type="text/javascript" src="vendor/bootstrap/jquery-1.9.1.min.js"></script>
 </body>
   <footer>
   	<div class="row">

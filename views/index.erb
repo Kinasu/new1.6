@@ -40,7 +40,7 @@
 <!--тут карусель -->
 <div class="row">
 	
-	<div class="col-xs-8 hidden-xs">
+	<div class="col-lg-9 col-md-9 hidden-xs hidden-sm">
 			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 				  <!-- Indicators -->
 				  <ol class="carousel-indicators">
@@ -84,18 +84,116 @@
 </div>
 
 </div>
-	<div class="col-xs-3">
-		<div id="write1">запись на пробное занятие</div>
-		<div id="write2"><a href="#">кузьминки</a></div>
-		<div id="write3"><a href="#">московский</a></div>
-		<div id="write4">заказать звонок</div>
+	<div class="col-lg-3 col-md-3 col-xs-12">
+		<!--тут обратный звонок и пробное занятие-->
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Обратный звонок
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <!-- тут форма ввода для звонка-->
+        <form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Пароль</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-default">Отправить</button>
+</form>
+        <!--конец формы ввода для звонка-->
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Записаться на пробное занятие
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        <!--тут адреса-->
+        
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Московский
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <!-- тут форма ввода для записи-->
+        <form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Пароль</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-default">Отправить</button>
+</form>
+        <!--конец формы ввода для записи-->
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          кузьминки
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        <!-- тут форма ввода для записи-->
+        <form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Пароль</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-default">Отправить</button>
+</form>
+        <!--конец формы ввода для записи-->
+      </div>
+    </div>
+  </div>
+</div>
+        <!--тут конец адреса-->
+      </div>
+    </div>
+  </div>
+</div>
+		<!--тут конец обратный звонок и пробное занятие-->
 	</div>
 </div>
 
 <!-- тут меню-->
 <div class="row">
-	<div class="col-xs-12" id="menu">
+	<div class="col-xs-12" id="menu" >
 		<ul class="nav nav-pills nav-justified">
+			<li class="dropdown visible-xs"><a href="#" data-toggle="dropdown">Меню<span class="caret"></span></a>
+				<ul class="dropdown-menu">
 			<li><a href="/">Главная</a></li>
   			<li><a href="/otziv">Отзывы</a></li>
   			<li><a href="/news">Новости</a></li>
@@ -104,9 +202,21 @@
   			<li><a href="/pravila">Правила</a></li>
   			<li><a href="/sale">Акции</a></li>
 		</ul>
+			</li>
+			<li class="hidden-xs"><a href="/">Главная</a></li>
+  			<li class="hidden-xs"><a href="/otziv">Отзывы</a></li>
+  			<li class="hidden-xs"><a href="/news">Новости</a></li>
+  			<li class="hidden-xs"><a href="/foto">Фото</a></li>
+  			<li class="hidden-xs"><a href="/contacti">Контакты</a></li>
+  			<li class="hidden-xs"><a href="/pravila">Правила</a></li>
+  			<li class="hidden-xs"><a href="/sale">Акции</a></li>
+		</ul>
 	</div>
 </div>
 	<!--END OF MENU -->
+	<!--тут мобильное меню -->
+
+	<!--конец мобильного меню-->
 
 
 
@@ -140,7 +250,7 @@
 
 	<div class="row">
 		<div class="col-xs-3"></div>
-		<div class="col-xs-6 visible-xs visible-md">
+		<div class="col-xs-6 visible-xs visible-sm visible-md">
 			<a href="https://www.instagram.com/clubmalina/" id="socset1" target="_blank" title="Instagram"><img src="img/insta.png" class="socset"></a>
 			<a href="https://www.facebook.com/clubmalina/" id="socset2" target="_blank" title="Facebook"><img src="img/fb.png" class="socset"></a></div>
 		<div class="col-xs-3"></div>
@@ -154,7 +264,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="vendor/bootstrap/js/bootstrap.js"></script>
-    <script src="vendor/bootstrap/js/myjs.js"></script>
+    <!--<script src="vendor/bootstrap/js/myjs.js"></script>-->
 </body>
   <footer>
   	<div class="row">

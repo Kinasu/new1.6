@@ -25,3 +25,7 @@ end
 get '/pravila' do
 	erb :pravila
 end
+
+get '/sale' do
+	erb :sale
+end

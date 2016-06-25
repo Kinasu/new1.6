@@ -1,5 +1,9 @@
-
-
+/*карусель*/
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
 /*запись на занятия*/
 #write1 {
   float: top;
@@ -115,16 +119,19 @@ ul {
 
 #logo-col{
   margin: 1em 1em 1em 1em;
+  max-height: 10em;
 }
 
 #msk {
   color: white;
   text-decoration: none;
+  float: left;
 }
 #kuz{
   text-align: right;
   color: white;
   text-decoration: none;
+  float: right;
 }
 
 #blockquote{
@@ -180,6 +187,7 @@ ul {
 }
 
 footer{
+  font-size: 0.5em;
 	margin-left: 1.5em;
 	margin-right: 1.5em;
 	padding-right: 1em;

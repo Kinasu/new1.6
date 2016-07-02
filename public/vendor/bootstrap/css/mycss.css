@@ -1,3 +1,69 @@
+
+/*mobile menu*/
+header {
+  background: #03A600;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+.site-title {
+  margin-left: 100px;
+  font-size: 1rem;
+}
+
+.nav-toggle {
+  position: absolute;
+  top: 30px;
+  cursor: pointer;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li {
+  list-style: none;
+}
+
+.main-navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00a550;
+  text-align: center;
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+
+.main-navigation.open {
+  transform: translateX(0);
+
+}
+
+.main-navigation .nav-toggle {
+  right: 5%;
+  top: 5%;
+}
+
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-navigation ul a {
+padding: 10px 20px;
+display: block;
+}
+
+.main-navigation ul a:hover {
+  background: #00A550;
+}
+/*end mobile menu*/
+
 /*карусель*/
 .item{
     background: #333;    
@@ -30,7 +96,6 @@
 .btn:hover,
 .btn:focus {
   color: white !important;
-  text-decoration: none;
 }
 
 .btn-default:hover,
@@ -42,7 +107,9 @@
   background-color: #666666 !important;
   border-color: #666666;
 }
-
+a {
+  text-decoration: none !important;
+}
 img{
 	width: 100% !important;
 }
@@ -52,8 +119,10 @@ img{
 
 }
 /*меню*/
-#menu {
-margin-bottom: 5em;
+
+div > ul > li {
+  border: 0.01em solid white;
+  border-radius: 0.3em;
 }
 
 ul {
@@ -67,7 +136,6 @@ ul {
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-  text-decoration: none;
   background-color: #00a550;
 }
 .nav-justified > li > a {
@@ -124,18 +192,22 @@ ul {
 
 #msk {
   color: white;
-  text-decoration: none;
   float: left;
+  border-right: 0.01em solid white;
+  border-radius: 0.3em;
+  padding: 0.4em;
 }
 #kuz{
   text-align: right;
   color: white;
-  text-decoration: none;
   float: right;
+  border-radius: 0.3em;
+  border-left: 0.01em solid white;
+  padding: 0.4em;
 }
 
 #blockquote{
-  text-align: center;
+  text-align: right;
   margin-top: 2em;
   margin-right: 2em;
   font-style: italic;
@@ -144,7 +216,6 @@ ul {
   margin-top: 2em;
   margin-bottom: 4em;
   background-color: #01b54b;
-  text-decoration: none;
   border-radius: 0.3em;
 }
 #addr:focus,
@@ -164,20 +235,26 @@ ul {
 /*преимущества*/
 #advantages1,#advantages2,#advantages3,#advantages4 {
   margin-top: 0.7em;
-  color: white;
-  text-decoration: none;
+  color: #666666;
 }
-
 #advant_wrap {
-  background-color: #01b54b;
-  margin-top: 3em;
   margin-bottom: 3em;
 }
+#advant_wrap2 {
+  margin-top: 3em;
+  text-align: center;
+  color: #666666;
+  font-size: 2.5em;
+}
 /*новые события*/
+#events-wrap {
+  font-size: 2.5em;
+  text-align: center;
+  color: #666666;
+}
 
-#events1,#events2,#events3,#events4,#events5,#events6,#events7,#events8{
+#events1,#events2,#events3,#events4,#events5 {
   padding: 1em 1em 1em 1em;
-  text-decoration: none;
 }
 
 .bla{

@@ -1,4 +1,7 @@
 
+/*обратный звонок*/
+
+
 /*mobile menu*/
 header {
   background: #03A600;
@@ -20,7 +23,7 @@ header {
 
 a {
   color: #fff;
-  text-decoration: none;
+  text-decoration: none!important;
 }
 
 nav li {
@@ -68,7 +71,7 @@ display: block;
 .item{
     background: #333;    
     text-align: center;
-    height: 300px !important;
+    height: 25em !important;
 }
 /*запись на занятия*/
 #write1 {
@@ -107,9 +110,7 @@ display: block;
   background-color: #666666 !important;
   border-color: #666666;
 }
-a {
-  text-decoration: none !important;
-}
+
 img{
 	width: 100% !important;
 }
@@ -245,12 +246,14 @@ ul {
   text-align: center;
   color: #666666;
   font-size: 2.5em;
+  padding-bottom: 1em;
 }
 /*новые события*/
 #events-wrap {
   font-size: 2.5em;
   text-align: center;
   color: #666666;
+  padding-bottom: 0.7em;
 }
 
 #events1,#events2,#events3,#events4,#events5 {

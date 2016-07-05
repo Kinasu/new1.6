@@ -3,6 +3,22 @@
 
 
 /*mobile menu*/
+.bth-wrap {
+  background-color: #e3e5e3;
+  /*span-margin: 0 auto;*/
+  border-radius: 2px;
+
+}
+
+.butn-me {
+  display: block;
+  width: 10px;
+  height: 3px;
+  margin-top: 2px;
+  background-color: #666666;
+  border-radius: 2px;
+}
+
 header {
   background: #03A600;
   color: #fff;
@@ -20,6 +36,9 @@ header {
   top: 30px;
   cursor: pointer;
 }
+
+
+
 
 a {
   color: #fff;
@@ -149,6 +168,7 @@ ul {
   color: #666666;
   background-color: white;
 }
+
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
@@ -191,6 +211,9 @@ ul {
   max-height: 10em;
 }
 
+#logo-mob {
+  max-height: 6em;
+}
 #msk {
   color: white;
   float: left;
@@ -266,13 +289,12 @@ ul {
   margin: 0.2em 0.2em 0.2em 0.2em;
 }
 
-footer{
+footer {
   font-size: 0.5em;
 	margin-left: 1.5em;
 	margin-right: 1.5em;
 	padding-right: 1em;
 	padding-left: 2em;
-  color: #666666;
 }
 
 
@@ -280,6 +302,7 @@ footer{
 body,footer .container-fluid {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.06);
   /*min-width: 57em;*/
+  color: #666666;
   max-width: 67em;
   margin-top: 0px;
   margin-right: auto;
@@ -299,5 +322,6 @@ body,footer .container-fluid {
   background-clip: border-box;
   background-origin: padding-box;
   background-size: auto auto;
+
 }
 

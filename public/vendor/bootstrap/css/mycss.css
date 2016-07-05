@@ -4,27 +4,33 @@
 
 /*mobile menu*/
 .bth-wrap {
-  background-color: #e3e5e3;
   /*span-margin: 0 auto;*/
   border-radius: 2px;
+}
 
+#btn-wrap {
+  padding-top: 0.1em;
+  padding-right: 0.1em;
+  padding-bottom: 0.1em;
+  padding-left: 0.1em;
+  background-color: #e3e5e3;
+  border-radius: 2px;
+}
+
+#top-band {
+  margin-top: 0!important;
 }
 
 .butn-me {
   display: block;
-  width: 10px;
-  height: 3px;
-  margin-top: 2px;
+  width: 1.5em;
+  height: 0.2em;
+  margin-top: 0.27em;
   background-color: #666666;
   border-radius: 2px;
 }
 
-header {
-  background: #03A600;
-  color: #fff;
-  padding: 20px;
-  position: relative;
-}
+
 
 .site-title {
   margin-left: 100px;
@@ -213,21 +219,31 @@ ul {
 
 #logo-mob {
   max-height: 6em;
+  max-width: 20em;
+  margin-left: 5.5em;
+  margin-top: 1em;
+}
+#logo-mob-img {
+  max-height: 6em;
+  max-width: 20em;
+  align: center;
+  float: center;
 }
 #msk {
   color: white;
-  float: left;
-  border-right: 0.01em solid white;
+  float: center;
+  /*border-right: 0.01em solid white;*/
   border-radius: 0.3em;
-  padding: 0.4em;
+  padding: 0.2em;
+  text-align: center;
 }
 #kuz{
-  text-align: right;
+  text-align: center;
   color: white;
-  float: right;
+  float: center;
   border-radius: 0.3em;
-  border-left: 0.01em solid white;
-  padding: 0.4em;
+  /*border-left: 0.01em solid white;*/
+  padding: 0.2em;
 }
 
 #blockquote{
@@ -237,8 +253,8 @@ ul {
   font-style: italic;
 }
 #addr{
-  margin-top: 2em;
-  margin-bottom: 4em;
+  margin-top: 1em;
+  margin-bottom: 2em;
   background-color: #01b54b;
   border-radius: 0.3em;
 }
@@ -251,10 +267,16 @@ ul {
 #foo2{
   text-align: right;
 }
+#foo1 {
+  margin-left: -3em;
+}
 .socset {
   width: 1.5em !important;
   height: 1.5em !important;
   margin: 1em 1em 1em 1em;
+}
+#socset-wrap {
+  margin-left: 3em;
 }
 /*преимущества*/
 #advantages1,#advantages2,#advantages3,#advantages4 {

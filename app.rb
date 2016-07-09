@@ -31,10 +31,14 @@ get '/sale' do
 	erb :sale
 end
 
-
-
-post '/index' do
+get '/doemail' do
+	erb :doemail
+end
+ 
+post '/doemail/' do
 Pony.mail :to => "ashtoreet@gmail.com",
-    
+    :from => "mggu@newmail.ru",
     :subject => "Contact form at nepg.biz",
- end
+    :body => erb(:doemail)
+    "Thank you! Your message been send to administator"
+end

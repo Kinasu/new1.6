@@ -2,6 +2,7 @@
 require 'sinatra'
 require 'rubygems'
 
+
 get '/' do
 	erb :index
 end
@@ -29,3 +30,11 @@ end
 get '/sale' do
 	erb :sale
 end
+
+
+
+post '/index' do
+Pony.mail :to => "ashtoreet@gmail.com",
+    
+    :subject => "Contact form at nepg.biz",
+ end

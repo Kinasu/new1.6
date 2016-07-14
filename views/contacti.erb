@@ -7,8 +7,11 @@
 		
 		<title>Малина-сеть семейных клубов.</title>
 		<!-- Bootstrap -->
+		
 		<link href="/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 		<link href="/vendor/bootstrap/css/mycss.css" rel="stylesheet">
+
+
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -18,24 +21,23 @@
 
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-xs-1 hidden-xs"></div>
-			<div class="col-xs-2 hidden-xs"><img src="img/logo_mal.jpg" id="logo-col"></div>
-			<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5"><img src="img/logo_txt.jpg" id="logo-col"></div>
-			<div class="col-xs-offset-7 hidden-xs" id="blockquote"><h4 style="color:#666666">Познавайте мир вместе с нами!<br> Сеть семейных клубов - Малина</h4></div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-1 hidden-xs"></div>
+		<div class="col-xs-2 hidden-xs"><img src="img/logo_mal.jpg" id="logo-col"></div>
+		<div class="hidden-xs col-sm-5 col-md-5 col-lg-5"><a href="/"><img src="img/logo_txt.jpg" id="logo-col"></a></div>
+		<div class="visible-xs col-xs-12" id="logo-mob"><a href="/"><img id="logo-mob-img" src="img/logo_txt.jpg" id="logo-col"></a></div>
+		<div class="col-xs-offset-7 hidden-xs" id="blockquote"><h4 style="color:#666666">Познавайте мир вместе с нами!<br> Сеть семейных клубов - Малина</h4></div>
+	</div>
+	<div class="row" id="addr">
+		<div class="col-xs-12 col-md-5 col-lg-5 col-sm-5"><a href="/moscovskiy" id="msk"><h5>г.Московский, 3 микрорайон, д.11:<br>+7(499)583-03-67</h5></a></div>
+		<div class="col-md-2 col-lg-2 col-sm-2 hidden-xs">
+			<a href="https://www.instagram.com/clubmalina/" id="socset1" target="_blank" title="Instagram"><img src="img/instagr.png" class="socset"></a>
+			<a href="https://www.facebook.com/clubmalina/" id="socset2" target="_blank" title="Facebook"><img src="img/facb.png" class="socset"></a>
 		</div>
-		<div class="row" id="addr">
-			<div class="col-xs-12 col-md-5 col-lg-5 col-sm-5"><a href="/moscovskiy" id="msk"><h5>г.Московский, 3 микрорайон, д.11:<br>+7(499)583-03-67</h5></a></div>
-			<div class="col-md-2 col-lg-2 col-sm-2 hidden-xs">
-				<a href="https://www.instagram.com/clubmalina/" id="socset1" target="_blank" title="Instagram"><img src="img/insta.png" class="socset"></a>
-				<a href="https://www.facebook.com/clubmalina/" id="socset2" target="_blank" title="Facebook"><img src="img/fb.png" class="socset"></a>
-			</div>
-
-			<div class="col-xs-12 col-md-5 col-lg-5 col-sm-5"><a href="/kyzminki" id="kuz"><h5>г.Москва,ул. Васильцовский стан, д.11:<br>+7(499)649-38-51</h5></a></div>
-		</div>
+		<div class="col-xs-12 col-md-5 col-lg-5 col-sm-5"><a href="/kyzminki" id="kuz"><h5>г.Москва,ул. Васильцовский стан, д.11:<br>+7(499)649-38-51</h5></a></div>
+	</div>
 			
-
 <!-- тут меню-->
 <div class="row">
 	<div class="col-xs-12">
@@ -51,37 +53,92 @@
 	</div>
 </div>
 	<!--END OF MENU -->
-
-<div>Контакты
-
-Адрес:
-    г. Москва, м. Кузьминки, м. Текстильщики, ул. Васильцовский стан, дом 11, вход со двора, второй подъезд
-
-Режим работы:
-    понедельник-пятница с 9:00-21:00 ч.; суббота с 09:00-18:00 ч. (проведение дней рождений); воскресенье – выходной (проведение дней рождений)
-
-Телефоны:
-    + 7 (499) 742-99-65, + 7 (925) 204-41-13
-
-E-mail:
-    kuz@clubmalina.ru
-
-</div>
-
-<div>Контакты
-
-Адрес:
-    г. Москва, Новомосковский округ (бывший г. Московский), 3-й микрорайон (ЖК «Юго-Западный»), дом 11 (а), 2-й этаж
-
-Режим работы:
-    понедельник-пятница с 9:00-21:00 ч.; суббота с 09:00-18:00 ч. (проведение дней рождений); воскресенье – выходной (проведение дней рождений)
-
-Телефоны:
-    +7 (499) 583-03-67, + 7 (929) 929-66-09
-
-E-mail:
-    msk@clubmalina.ru
-
+	
+<!--тут мобильное меню -->
+	<div class="hidden-md hidden-lg">
+  <i class="fa fa-bars nav-toggle">
+  	<div id="btn-wrap"><div class="bth-wrap">
+  		<span class="butn-me" id="top-band"></span>
+  		<span class="butn-me"></span>
+  		<span class="butn-me"></span>
+  	</div></div>
+  </i>
+  <nav class="main-navigation">
+  <span class="nav-toggle">close</span>
+    <ul>
+      	<li><a href="/">Главная</a></li>
+  		<li><a href="/otziv">Отзывы</a></li>
+  		<li><a href="/news">Новости</a></li>
+  		<li><a href="/foto">Фото</a></li>
+  		<li><a href="/contacti">Контакты</a></li>
+  		<li><a href="/pravila">Правила</a></li>
+  		<li><a href="/sale">Акции</a></li>
+    </ul>
+    </nav>
+    </div>
+	<!--конец мобильного меню-->
+	</div>
+<div class="container-fluid" id="kont">
+	<div class="row">
+		<div class="col-xs-12"><h1 style="text-align: center">Контакты</h1></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3 col-md-2 col-lg-2 hidden-xs"><h4>Адрес:</h4></div>
+		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8"><h4>г. Москва, м. Кузьминки, м. Текстильщики, ул. Васильцовский стан, дом 11, вход со двора, второй подъезд</h4></div>
+		<div class="col-sm-1 col-md-1 col-lg-1 hidden-xs"></div>
+	</div>
+		<div class="row">
+		<div class="col-sm-3 col-md-3 col-lg-3 hidden-xs"><h4>Режим работы:</h4></div>
+		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8"><h4>понедельник-пятница с 9:00-21:00 ч.; суббота с 09:00-18:00 ч. (проведение дней рождений); воскресенье – выходной (проведение дней рождений)
+		</h4></div>
+		<div class="col-sm-1 col-md-1 col-lg-1 hidden-xs"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3 col-md-3 col-lg-3 hidden-xs"><h4>Телефоны:</h4></div>
+		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8"><h4>+ 7 (499) 742-99-65, + 7 (925) 204-41-13</h4></div>
+		<div class="col-sm-1 col-md-1 col-lg-1 hidden-xs"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3 col-md-3 col-lg-3 hidden-xs"><h4>E-mail:</h4></div>
+		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8"><h4>kuz@clubmalina.ru</h4></div>
+		<div class="col-sm-1 col-md-1 col-lg-1 hidden-xs"></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8990.559528161486!2d37.740304705716575!3d55.71263116949811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab512627b8ccd%3A0x5ce126cbe6e564d2!2z0YPQuy4g0JLQsNGB0LjQu9GM0YbQvtCy0YHQutC40Lkg0KHRgtCw0L0sIDExLCDQnNC-0YHQutCy0LAsIDEwOTEyNQ!5e0!3m2!1sru!2sru!4v1468491423538" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+	</div>
+	<!--<div class="row">
+		<div class="col-xs-12"><div class="btn btn-default">Показать карту
+		</div></div>
+	</div>-->
+	<div class="row">
+		<div class="col-xs-12">м. Кузьминки, выход из последнего вагона (из центра) из метро налево. С Волгоградского проспекта выйти на улицу Жигулевская, идти по ней до конца до улицы Окская, перед вами откроется большой микрорайон с новостройками. Идти прямо, чуть правее (как бы огибая справа микрорайон) вперед до многоподъездного 24-х этажного дома №11 по ул. Васильцовский стан. Вы пришли!</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3 col-md-2 col-lg-2 hidden-xs"><h4>Адрес:</h4></div>
+		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8"><h4>г. Москва, Новомосковский округ (бывший г. Московский), 3-й микрорайон (ЖК «Юго-Западный»), дом 11 (а), 2-й этаж
+		</h4></div>
+		<div class="col-sm-1 col-md-1 col-lg-1 hidden-xs"></div>
+	</div>
+		<div class="row">
+		<div class="col-sm-3 col-md-3 col-lg-3 hidden-xs"><h4>Режим работы:</h4></div>
+		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8"><h4>понедельник-пятница с 9:00-21:00 ч.; суббота с 09:00-18:00 ч. (проведение дней рождений); воскресенье – выходной (проведение дней рождений)</h4></div>
+		<div class="col-sm-1 col-md-1 col-lg-1 hidden-xs"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3 col-md-3 col-lg-3 hidden-xs"><h4>Телефоны:</h4></div>
+		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8"><h4>
+    	+7 (499) 583-03-67, + 7 (929) 929-66-09</h4></div>
+		<div class="col-sm-1 col-md-1 col-lg-1 hidden-xs"></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-3 col-md-3 col-lg-3 hidden-xs"><h4>E-mail:</h4></div>
+		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8"><h4>msk@clubmalina.ru</h4></div>
+		<div class="col-sm-1 col-md-1 col-lg-1 hidden-xs"></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12"><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d9016.169106869947!2d37.339565114929975!3d55.601277880285615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x46b5539047ac2975%3A0xd5d43617f568f74b!2z0LzQuNC60YDQvtGA0LDQudC-0L0gMywgMTEsINCc0L7RgdC60L7QstGB0LrQuNC5LCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMTQyNzg0!3m2!1d55.5953105!2d37.342304899999995!5e0!3m2!1sru!2sru!4v1468492627557" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+	</div>
+	
 </div>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->

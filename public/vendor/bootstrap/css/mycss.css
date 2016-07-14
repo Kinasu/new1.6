@@ -1,6 +1,6 @@
 /*стр контакты*/
-#kont {
-  /*text-align: center;*/
+#razdel {
+  background: #01b54b;
 }
 /*обратный звонок*/
 
@@ -122,7 +122,7 @@ display: block;
 /*кнопки*/
 
 .btn {
-  color: #808080 !important;
+  color: white !important;
 }
 .btn:hover,
 .btn:focus {
@@ -203,6 +203,10 @@ ul {
 	position: relative;
 }
 /*стили к странице новостей*/
+.wrap-news {
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
 .newsimg {
 	width: 22em;
 	height: auto;
@@ -235,7 +239,6 @@ ul {
 #msk {
   color: white;
   float: center;
-  /*border-right: 0.01em solid white;*/
   border-radius: 0.3em;
   padding: 0.2em;
   text-align: center;
@@ -245,7 +248,6 @@ ul {
   color: white;
   float: center;
   border-radius: 0.3em;
-  /*border-left: 0.01em solid white;*/
   padding: 0.2em;
 }
 
@@ -257,13 +259,12 @@ ul {
 }
 #addr{
   margin-top: 1em;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   background-color: #01b54b;
   border-radius: 0.3em;
 }
 #addr:focus,
 #addr:hover {
-  
   background-color: #00a550;
 }
 
@@ -274,8 +275,8 @@ ul {
   margin-left: -3em;
 }
 .socset {
-  width: 1.5em !important;
-  height: 1.5em !important;
+  width: 2.3em !important;
+  height: 2.3em !important;
   margin: 1em 1em 1em 1em;
 }
 #socset-wrap {

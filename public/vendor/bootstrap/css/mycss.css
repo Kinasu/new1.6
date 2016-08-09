@@ -1,13 +1,63 @@
+
+/*обратный звонок*/
+#obratniy {
+  background: #01b54b;
+  border-radius: 6px;
+  margin-left: -0.5em;
+  border: none;
+  max-height: 27em;
+  margin-top: 0.9em;
+}
+
+#dropdownMenu1 {
+  width: 100%;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  background-color: #01b54b;
+  border: none;
+}
+#dropdownMenu1:hover,
+#dropdownMenu1:focus {
+  background: #00a550 !important;
+}
+.pole:hover,
+.pole:focus {
+  background: #00a550 !important;
+}
+
+#pole {
+  background-color: #01b54b;
+}
+.pole {
+  border: none;
+  background: #01b54b;
+  width: 100%;
+}
+#exampleInputEmail1 {
+  background-color: #CCFFCC;
+}
+.form-control {
+  background-color: #CCFFCC;
+}
+#otpravit {
+  width: 100%;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  background-color: #01b54b;
+  border: none;
+}
+#otpravit:hover,
+#otpravit:focus {
+  background: #00a550 !important;
+}
 /*стр контакты*/
 #razdel {
   background: #01b54b;
 }
-/*обратный звонок*/
 
 
 /*mobile menu*/
 .bth-wrap {
-  /*span-margin: 0 auto;*/
   border-radius: 2px;
 }
 
@@ -16,7 +66,6 @@
   padding-right: 0.1em;
   padding-bottom: 0.1em;
   padding-left: 0.1em;
-  /*background-color: #e3e5e3;*/
   border-radius: 2px;
 }
 
@@ -214,7 +263,6 @@ ul {
 }
 
 #news1,#news2,#news3{
-	/*border-bottom: 0.2em solid #808080;*/
 	padding-bottom: 1em;
   padding-top: 1em;
 }
@@ -270,9 +318,11 @@ ul {
 
 #foo2{
   text-align: right;
+  color: #CE1630;
 }
 #foo1 {
   margin-left: -3em;
+  color: #CE1630;
 }
 .socset {
   width: 2.3em !important;
@@ -351,3 +401,6 @@ body,footer .container-fluid {
 
 }
 
+#vint {
+  max-height: 10em;
+}

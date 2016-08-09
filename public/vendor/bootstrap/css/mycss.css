@@ -1,6 +1,6 @@
 
 /*обратный звонок*/
-#obratniy {
+/*#obratniy {
   background: #01b54b;
   border-radius: 6px;
   margin-left: -0.5em;
@@ -49,7 +49,7 @@
 #otpravit:hover,
 #otpravit:focus {
   background: #00a550 !important;
-}
+}*/
 /*стр контакты*/
 #razdel {
   background: #01b54b;
@@ -268,7 +268,10 @@ ul {
 }
 
 #logo-col{
-  margin: 1em 1em 1em 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
   max-height: 10em;
 }
 
@@ -327,11 +330,12 @@ ul {
 .socset {
   width: 2.3em !important;
   height: 2.3em !important;
-  margin: 1em 1em 1em 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
 }
-#socset-wrap {
-  margin-left: 3em;
-}
+
 /*преимущества*/
 #advantages1,#advantages2,#advantages3,#advantages4 {
   margin-top: 0.7em;
